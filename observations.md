@@ -1,0 +1,5 @@
+The error spikes really high when the detection is near the bottom of the screen. Intuitively, the flatter the panel is, the more accurate the detection. When the panel is turning the corner, for instance, it is angled to the side and so its center is likely hard to pinpoint for the algorithm. Also, the faster the robot spinning, the worse the detections get.
+
+While the robot is moving, the y error dips significantly. Actually, when the detection is at the bottom of the screen, the Y value dips dramatically. The Y-value is the depth of the node, and so the height and horizontal measurement are always pretty accurate, but the depth is the hardest part. This changes when the depth is along a different axis.
+
+As the panel is turning the corner, the height is still accurate but the X value changes.

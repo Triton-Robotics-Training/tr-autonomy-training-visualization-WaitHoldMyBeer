@@ -1,0 +1,12 @@
+digraph G {
+"camera_frame" -> "detected_panel"[label=" Broadcaster: default_authority\nAverage rate: 4.37\nBuffer length: 2.059\nMost recent transform: 1763197738.337515\nOldest transform: 1763197736.278122\n"];
+"map" -> "camera_frame"[label=" Broadcaster: default_authority\nAverage rate: 5.037\nBuffer length: 2.184\nMost recent transform: 1763197738.472472\nOldest transform: 1763197736.288769\n"];
+"map" -> "panel_0"[label=" Broadcaster: default_authority\nAverage rate: 5.037\nBuffer length: 2.184\nMost recent transform: 1763197738.472472\nOldest transform: 1763197736.288769\n"];
+"map" -> "panel_1"[label=" Broadcaster: default_authority\nAverage rate: 5.131\nBuffer length: 1.949\nMost recent transform: 1763197738.237605\nOldest transform: 1763197736.288769\n"];
+"map" -> "panel_2"[label=" Broadcaster: default_authority\nAverage rate: 5.131\nBuffer length: 1.949\nMost recent transform: 1763197738.237605\nOldest transform: 1763197736.288769\n"];
+"map" -> "panel_3"[label=" Broadcaster: default_authority\nAverage rate: 5.131\nBuffer length: 1.949\nMost recent transform: 1763197738.237605\nOldest transform: 1763197736.288769\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1763197738.5196795"[ shape=plaintext ] ;
+}->"map";
+}
